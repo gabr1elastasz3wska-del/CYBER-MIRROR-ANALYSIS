@@ -1,13 +1,16 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+
   background: linear-gradient(
     90deg,
-    #fef08a 0%,   /* żółty */
-    #fb923c 50%,  /* pomarańcz */
-    #ef4444 100%  /* czerwony */
+    #2c1a0f 0%,   /* ciemny bursztyn */
+    #7c2d12 40%,  /* głęboki pomarańcz */
+    #9a3412 70%,  /* ciemna morela */
+    #7f1d1d 100%  /* przygaszona czerwień */
   );
-  color: #0f172a;
+
+  color: #e5e7eb;
 }
 
 .container {
