@@ -1,13 +1,9 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background:
-    radial-gradient(circle at 20% 20%, rgba(255, 204, 0, 0.25), transparent 45%),
-    radial-gradient(circle at 80% 30%, rgba(255, 140, 0, 0.25), transparent 45%),
-    radial-gradient(circle at 50% 80%, rgba(255, 80, 0, 0.25), transparent 45%),
-    linear-gradient(180deg, #1a0603 0%, #020617 100%);
-  background-size: 200% 200%;
-  animation: gradientMove 18s ease infinite;
+  background: linear-gradient(-45deg, #2a0b05, #7c2d12, #f59e0b, #fb7185);
+  background-size: 300% 300%;
+  animation: gradientMove 16s ease infinite;
   color: white;
 }
 
@@ -258,12 +254,12 @@ body {
 }
 @keyframes gradientMove {
   0% {
-    background-position: 20% 20%, 80% 30%, 50% 80%, 0% 0%;
+    background-position: 0% 50%;
   }
   50% {
-    background-position: 30% 25%, 70% 40%, 55% 70%, 0% 0%;
+    background-position: 100% 50%;
   }
   100% {
-    background-position: 20% 20%, 80% 30%, 50% 80%, 0% 0%;
+    background-position: 0% 50%;
   }
 }
