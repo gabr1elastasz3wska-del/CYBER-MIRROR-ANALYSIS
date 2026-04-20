@@ -3,10 +3,10 @@ body {
   font-family: Arial, sans-serif;
   background: linear-gradient(
     -45deg,
-    #fff7ed,   /* jasny morelowy */
-    #fed7aa,   /* ciepły jasny pomarańcz */
-    #fb923c,   /* pomarańcz */
-    #ef4444    /* czerwony */
+    #fffbea,   /* bardzo jasny żółty */
+    #fef08a,   /* czysty żółty */
+    #fdba74,   /* morela */
+    #fb923c    /* pomarańcz */
   );
   background-size: 300% 300%;
   animation: gradientMove 18s ease infinite;
