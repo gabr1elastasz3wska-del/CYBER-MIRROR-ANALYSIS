@@ -1,10 +1,16 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(-45deg, #2a0b05, #7c2d12, #f59e0b, #fb7185);
+  background: linear-gradient(
+    -45deg,
+    #fff7ed,   /* jasny morelowy */
+    #fed7aa,   /* ciepły jasny pomarańcz */
+    #fb923c,   /* pomarańcz */
+    #ef4444    /* czerwony */
+  );
   background-size: 300% 300%;
-  animation: gradientMove 16s ease infinite;
-  color: white;
+  animation: gradientMove 18s ease infinite;
+  color: #0f172a;
 }
 
 .container {
