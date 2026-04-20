@@ -2,14 +2,11 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: linear-gradient(
-    -45deg,
-    #fffbea,   /* bardzo jasny żółty */
-    #fef08a,   /* czysty żółty */
-    #fdba74,   /* morela */
-    #fb923c    /* pomarańcz */
+    90deg,
+    #fef08a 0%,   /* żółty */
+    #fb923c 50%,  /* pomarańcz */
+    #ef4444 100%  /* czerwony */
   );
-  background-size: 300% 300%;
-  animation: gradientMove 18s ease infinite;
   color: #0f172a;
 }
 
