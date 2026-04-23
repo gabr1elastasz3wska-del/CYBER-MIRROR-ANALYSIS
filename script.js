@@ -4,6 +4,7 @@ function getQueryParam(name) {
 }
 
 const score = Number(getQueryParam("score")) || 0;
+const profileFromUrl = getQueryParam("profile");
 
 function getProfile(score) {
   if (score >= 80) return "Świadomy i uważny użytkownik";
