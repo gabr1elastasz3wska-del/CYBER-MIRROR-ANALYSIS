@@ -3,11 +3,11 @@ body {
   font-family: Arial, sans-serif;
 
   background: linear-gradient(
-    90deg,
-    #fff3d6 0%,
-    #fde6c7 25%,
-    #f9c89b 55%,
-    #f4a261 100%
+    180deg,
+    #3b2417 0%,
+    #7c3a1d 35%,
+    #b85c38 70%,
+    #d97757 100%
   );
 
   color: #e5e7eb;
@@ -288,4 +288,17 @@ body {
   padding: 14px 22px;
   border-radius: 12px;
   border: 1px solid #facc15;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+
+  background: radial-gradient(
+    circle at top,
+    rgba(255,255,255,0.08),
+    transparent 45%
+  );
+
+  pointer-events: none;
 }
