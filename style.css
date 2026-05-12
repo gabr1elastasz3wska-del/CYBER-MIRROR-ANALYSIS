@@ -52,7 +52,7 @@ body {
 
 .subtitle {
   font-size: 18px;
-  color: #dbeafe;
+  color: #cfc7c2;
   margin: 0 auto;
   max-width: 760px;
   line-height: 1.75;
@@ -68,7 +68,7 @@ body {
 }
 
 .section-text {
-  color: #cbd5e1;
+  color: #cfc7c2;
   line-height: 1.75;
   margin-bottom: 18px;
   max-width: 860px;
@@ -124,7 +124,7 @@ body {
 
 .card-text {
   line-height: 1.75;
-  color: #e2e8f0;
+  color: #d6d3d1;
 }
 
 .grid-4 {
@@ -167,7 +167,7 @@ body {
 .factor-text,
 .impact-text,
 .tip-text {
-  color: #e2e8f0;
+  color: #d6d3d1;
   line-height: 1.65;
   margin: 0;
 }
