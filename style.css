@@ -1,43 +1,38 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-
   background: linear-gradient(
     180deg,
-    #5a3422 0%,
-    #a95532 38%,
-    #d97a4a 72%,
-    #f0a46b 100%
+    #6a3d28 0%,
+    #b35c38 40%,
+    #d9875b 75%,
+    #f2bb88 100%
   );
-
-  color: #e5e7eb;
+  color: #2b1d16;
 }
+
 .container {
   max-width: 1100px;
   margin: 50px auto;
   padding: 30px;
-
-  background: rgba(255, 255, 255, 0.82);
+  background: rgba(255, 244, 232, 0.72);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-
   border-radius: 22px;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-
-  box-shadow:
-    0 20px 50px rgba(0, 0, 0, 0.18),
-    inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(120, 70, 40, 0.08);
+  box-shadow: 0 20px 50px rgba(60, 30, 15, 0.25);
 }
+
 .hero {
-  padding: 54px 20px 34px 20px;
+  padding: 48px 20px 34px 20px;
   text-align: center;
 }
 
 .badge {
   display: inline-block;
-  background: rgba(14, 165, 233, 0.14);
-  color: #bae6fd;
-  border: 1px solid rgba(125, 211, 252, 0.28);
+  background: rgba(245, 158, 11, 0.16);
+  color: #5c2e12;
+  border: 1px solid rgba(120, 70, 40, 0.14);
   padding: 8px 14px;
   border-radius: 999px;
   font-size: 14px;
@@ -48,11 +43,12 @@ body {
   font-size: 48px;
   margin: 0 0 14px 0;
   letter-spacing: 0.2px;
+  color: #24140f;
 }
 
 .subtitle {
   font-size: 18px;
-  color: #cfc7c2;
+  color: #4b2e22;
   margin: 0 auto;
   max-width: 760px;
   line-height: 1.75;
@@ -65,10 +61,11 @@ body {
 .section-title {
   font-size: 30px;
   margin: 0 0 10px 0;
+  color: #24140f;
 }
 
 .section-text {
-  color: #cfc7c2;
+  color: #4b2e22;
   line-height: 1.75;
   margin-bottom: 18px;
   max-width: 860px;
@@ -81,50 +78,68 @@ body {
 }
 
 .info-box {
-  background: rgba(15, 23, 42, 0.9);
-  border: 1px solid rgba(100, 116, 139, 0.2);
-  border-radius: 18px;
+  background: rgba(255, 248, 240, 0.82);
   padding: 26px;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+  border-radius: 18px;
+  border: 1px solid rgba(120, 70, 40, 0.08);
+  box-shadow: 0 12px 30px rgba(60, 30, 15, 0.16);
 }
 
 .info-label {
-  color: #93c5fd;
+  color: #8a3f17;
   font-size: 15px;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .info-value-big {
   font-size: 58px;
   font-weight: bold;
   margin: 0;
+  color: #24140f;
 }
 
 .info-value-profile {
   font-size: 28px;
   font-weight: bold;
   margin: 0;
-  color: #86efac;
+  color: #8a3f17;
   line-height: 1.4;
 }
 
-.card {
-  background: rgba(30, 41, 59, 0.94);
+.card,
+.factor-card,
+.impact-card,
+.tip-card {
+  background: rgba(255, 248, 240, 0.82);
   border-radius: 18px;
-  padding: 24px;
-  border: 1px solid rgba(100, 116, 139, 0.2);
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.16);
+  padding: 22px;
+  border: 1px solid rgba(120, 70, 40, 0.08);
+  box-shadow: 0 8px 24px rgba(60, 30, 15, 0.15);
+}
+
+.card {
   margin-bottom: 18px;
+}
+
+.card:hover,
+.factor-card:hover,
+.impact-card:hover,
+.tip-card:hover {
+  transform: translateY(-3px);
+  transition: 0.2s ease;
+  box-shadow: 0 14px 32px rgba(60, 30, 15, 0.2);
 }
 
 .card-title {
   font-size: 24px;
   margin: 0 0 14px 0;
+  color: #24140f;
 }
 
 .card-text {
   line-height: 1.75;
-  color: #d6d3d1;
+  color: #4b2e22;
 }
 
 .grid-4 {
@@ -139,22 +154,13 @@ body {
   gap: 18px;
 }
 
-.factor-card,
-.impact-card,
-.tip-card {
-  background: rgba(30, 41, 59, 0.94);
-  border-radius: 18px;
-  padding: 22px;
-  border: 1px solid rgba(100, 116, 139, 0.2);
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.16);
-  min-height: 180px;
-}
-
 .factor-icon,
 .impact-icon,
 .tip-icon {
   font-size: 34px;
   margin-bottom: 14px;
+  color: #f59e0b;
+  text-shadow: 0 0 12px rgba(245, 158, 11, 0.18);
 }
 
 .factor-title,
@@ -162,12 +168,13 @@ body {
 .tip-title {
   font-size: 21px;
   margin: 0 0 10px 0;
+  color: #24140f;
 }
 
 .factor-text,
 .impact-text,
 .tip-text {
-  color: #d6d3d1;
+  color: #4b2e22;
   line-height: 1.65;
   margin: 0;
 }
@@ -185,56 +192,59 @@ body {
 }
 
 .bar-label {
-  color: #e2e8f0;
+  color: #4b2e22;
+  font-weight: bold;
 }
 
 .bar-outer {
   height: 16px;
-  background: #334155;
+  background: rgba(120, 70, 40, 0.14);
   border-radius: 999px;
   overflow: hidden;
 }
 
 .bar-fill-blue {
   height: 16px;
-  background: linear-gradient(90deg, #38bdf8, #22c55e);
+  background: linear-gradient(90deg, #fcd34d, #fb923c);
 }
 
 .bar-fill-orange {
   height: 16px;
-  background: linear-gradient(90deg, #f59e0b, #ef4444);
+  background: linear-gradient(90deg, #fef08a, #fb923c, #ef4444);
 }
 
 .note-box {
-  background: rgba(15, 23, 42, 0.88);
-  border: 1px solid rgba(100, 116, 139, 0.2);
+  background: rgba(255, 248, 240, 0.82);
   border-radius: 18px;
   padding: 22px;
+  border: 1px solid rgba(120, 70, 40, 0.08);
+  box-shadow: 0 8px 24px rgba(60, 30, 15, 0.15);
 }
 
 .note-box p {
   margin: 0;
   line-height: 1.8;
-  color: #dbe4ef;
+  color: #4b2e22;
 }
 
 .back-btn {
   display: inline-block;
-  margin-top: 12px;
-  background: #dbeafe;
-  color: #0f172a;
+  margin-top: 16px;
+  background: #f59e0b;
+  color: #2b1d16;
   text-decoration: none;
   font-weight: bold;
   padding: 14px 22px;
   border-radius: 12px;
-  border: 1px solid #93c5fd;
+  border: 1px solid rgba(120, 70, 40, 0.12);
+  box-shadow: 0 8px 18px rgba(120, 70, 40, 0.18);
 }
 
 .footer {
   margin-top: 36px;
   padding: 22px;
-  border-top: 1px solid #1e293b;
-  color: #94a3b8;
+  border-top: 1px solid rgba(120, 70, 40, 0.12);
+  color: #4b2e22;
   text-align: center;
   font-size: 15px;
   line-height: 1.8;
@@ -266,39 +276,4 @@ body {
   .info-value-big {
     font-size: 46px;
   }
-}
-@keyframes gradientMove {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-.back-btn {
-  display: inline-block;
-  margin-top: 16px;
-  background: #fef08a;
-  color: #78350f;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 14px 22px;
-  border-radius: 12px;
-  border: 1px solid #facc15;
-}
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-
-  background: radial-gradient(
-    circle at top,
-    rgba(255,255,255,0.08),
-    transparent 45%
-  );
-
-  pointer-events: none;
 }
