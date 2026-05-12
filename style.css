@@ -4,15 +4,14 @@ body {
 
   background: linear-gradient(
     90deg,
-    #2c1a0f 0%,   /* ciemny bursztyn */
-    #7c2d12 40%,  /* głęboki pomarańcz */
-    #9a3412 70%,  /* ciemna morela */
-    #7f1d1d 100%  /* przygaszona czerwień */
+    #fff3d6 0%,
+    #fde6c7 25%,
+    #f9c89b 55%,
+    #f4a261 100%
   );
 
   color: #e5e7eb;
 }
-
 .container {
   max-width: 1100px;
   margin: 50px auto;
