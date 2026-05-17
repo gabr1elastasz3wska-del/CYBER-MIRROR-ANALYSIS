@@ -7,11 +7,12 @@ const score = Number(getQueryParam("score")) || 0;
 const profileFromUrl = getQueryParam("profile");
 
 function getProfile(score) {
+  if (profileFromUrl) return profileFromUrl;
+
   if (score >= 80) return "Świadomy i uważny użytkownik";
   if (score >= 50) return "Użytkownik, który potrzebuje chwili więcej";
   return "Użytkownik podatny na presję i pozorną wiarygodność";
 }
-
 function getDescription(score) {
   if (score >= 80) {
     return "Ten wynik nie oznacza, że nic Ci nie grozi. Pokazuje raczej, że potrafisz zatrzymać się wtedy, kiedy wiele osób klika odruchowo. W praktyce to właśnie ta sekunda refleksji bywa najskuteczniejszą ochroną.";
